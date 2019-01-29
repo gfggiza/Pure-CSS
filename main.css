@@ -1,0 +1,287 @@
+  /* placa icon  */
+.placa.veloc {
+    color: #000;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: solid 5px red;
+    border-radius: 20px;
+  }
+
+  .line-ver.icon {
+    color: #000;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 4px;
+    height: 30px;
+    background-color: currentColor;
+  }
+
+  /* 90ºicon  */
+  .line-ver.icon:before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    width: 11px;
+    height: 10px;
+    border-top: solid 4px currentColor;
+  }
+  .line-hor.icon {
+    color: #000;
+    position: absolute;
+    margin-left: 10px;
+    left:0px;
+    width: 30px;
+    height:4px;
+    background-color: currentColor;
+  }
+  
+  .line-hor.icon:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    width: 11px;
+    height: 11px;
+    border-top: solid 4px currentColor;
+     -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  
+  .line-hor.icon:after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    width: 11px;
+    height: 11px;
+    border-top: solid 3px currentColor;
+    border-right: solid 3px currentColor;
+  }
+
+ /* 30ºicon  */
+ .arrow-ver.icon {
+    color: #000;
+    margin-left: 16px;
+    margin-top: 5px;
+    width: 4px;
+    height: 30px;
+    position: relative;
+    left: -8px;
+    top: 5px;
+    background-color: currentColor;
+    transform-origin:;
+    transform: rotate(30deg);
+  }
+  
+  .arrow-ver.icon:before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    width: 11px;
+    height: 10px;
+    border-top: solid 4px currentColor;
+  }
+  .arrow-hor.icon {
+    color: #000;
+    position: absolute;
+    margin-left: 10px;
+    left:0px;
+    width: 30px;
+    height:4px;
+    background-color: currentColor;
+  }
+  
+  .arrow-hor.icon:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    width: 11px;
+    height: 11px;
+    border-top: solid 4px currentColor;
+     -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  
+  .arrow-hor.icon:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: -11px;
+    width: 11px;
+    height: 11px;
+    border-radius:10px;
+    border-top: solid 3px currentColor;
+    border-right: solid 3px currentColor;
+  }
+  
+  
+
+
+  /* laugh */
+.laugh-solid.icon {
+  color: #00d7d3;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor:pointer;
+  background-color: currentColor;
+}
+.laugh-solid.icon:hover {
+  transition:1.2s;
+  background-color: #008da9;
+}
+
+.laugh-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top:12px;
+  border: solid .5px currentColor;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.laugh-solid.icon:after {
+  content: '';
+  position: absolute;
+  right:12px;
+  top: 12px;
+  border: solid .5px currentColor;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.laugh-solid.icon i {
+  position: absolute;
+  left: 8px;
+  top: 20px;
+  width: 20px;
+  height: 9px;
+  color: white;
+  border-radius: 0 0 11px 11px;
+  border: solid 2px currentColor;
+}
+
+
+
+/* serious */
+.serious-solid.icon {
+  color: #efc283;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor:pointer;
+  background-color: currentColor;
+}
+.serious-solid.icon:hover {
+  transition:1.2s;
+  background-color: #cca874;
+}
+
+.serious-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top:14px;
+  border: solid .5px currentColor;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.serious-solid.icon:after {
+  content: '';
+  position: absolute;
+  right:12px;
+  top: 14px;
+  border: solid .5px currentColor;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.serious-solid.icon i {
+  position: absolute;
+  left: 10px;
+  top: 25px;
+  width: 18px;
+  color: white;
+  border: solid 1px currentColor;
+}
+
+/* sad */
+.sad-solid.icon {
+  color: #f15d2a;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor:pointer;
+  background-color: currentColor;
+}
+.sad-solid.icon:hover {
+  transition:1.2s;
+  background-color: #bc471f;
+}
+
+.sad-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top:12px;
+  border: solid .5px currentColor;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.sad-solid.icon:after {
+  content: '';
+  position: absolute;
+  right:12px;
+  top: 12px;
+  border: solid .5px currentColor;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  color: white;
+  background-color: currentColor;
+}
+
+.sad-solid.icon i {
+position: absolute;
+left: 8px;
+top: 22px;
+width: 20px;
+height: 8px;
+border-radius: 50%;
+color: white;
+border-bottom: solid 2px transparent;
+border-top: solid 2px currentColor;
+border-left: solid 2px transparent;
+border-right: solid 2px transparent;
+}
